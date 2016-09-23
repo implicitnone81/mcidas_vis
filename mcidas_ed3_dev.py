@@ -132,9 +132,9 @@ def process_chunk( fname ):
 yyyy = '2016'
 mm = '06'
 ddhh = '*.*'
-pltdir = '/homedir/fwrenn/geo_qa/image_repo/'
+pltdir = '~/output_directory/'
 ed4 = 'n'
-archive = '/ASDC_archive/MCIDAS/'
+archive = '~/input_directory/'
 
 # check for existence of top directory.
 if not os.path.exists(pltdir):
