@@ -143,7 +143,7 @@ if pltdir[-1] != '/':
     pltdir = pltdir+'/'
 
 # list of satellites in this month
-sats = [ 'HIM8', 'MET7', 'MET10', 'G-13', 'G-15' ]
+sats = [ 'sat1', 'sat2', 'sat3', 'sat4', 'sat5' ]
 
 flist = []
 for isat in sats:
